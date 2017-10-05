@@ -16,11 +16,8 @@ ul {
     overflow: hidden;
 }
 
-li {
+ul > li a {
     float: right;
-}
-
-li a {
     display: block;
     color: black;
     text-align: center;
@@ -28,12 +25,17 @@ li a {
     text-decoration: none;
 }
 
-#container {
+li a {
     
+}
+
+#container {
+   
 }
 
 #tableHead {
     width: 100%;
+     margin: 14px 0px;
 }
 
 #tablePew {
@@ -46,6 +48,18 @@ li a {
     
 }
 
+#button {
+    background-color: black;
+    border: none;
+    color: white;
+    float: right;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+}
 #pandaPew {
     
 }
