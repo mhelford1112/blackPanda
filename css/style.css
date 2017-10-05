@@ -25,9 +25,6 @@ ul > li a {
     text-decoration: none;
 }
 
-li a {
-    
-}
 
 #container {
    
@@ -44,6 +41,10 @@ li a {
     color: white;
 }
 
+#log-container {
+    
+}
+
 #AWD {
     
 }
@@ -51,6 +52,7 @@ li a {
 #button {
     background-color: black;
     border: none;
+    border-radius: 3px;
     color: white;
     float: right;
     padding: 5px 20px;
@@ -60,8 +62,9 @@ li a {
     font-size: 15px;
     cursor: pointer;
 }
+
 #pandaPew {
-    
+
 }
 
 #features {
@@ -75,6 +78,23 @@ li a {
 #footer {
     
 }
+
+
+.btnBody {
+    border: none;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #079be3;
+    border-radius: 4px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
 .carousel{
     text-align: center;
 }
